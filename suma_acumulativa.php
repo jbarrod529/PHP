@@ -5,7 +5,7 @@ $numeroSumar = $_POST['numeroSumar'];
 $i;
 $sumaAcumulativa = 0;
 
-for (i = 0; i<=n; i++){
+for ($i = 1; $i<=$numeroSumar; $i++){
 
     $sumaAcumulativa = $sumaAcumulativa + $i;
 }
